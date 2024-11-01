@@ -36,3 +36,11 @@ Dentro do pacote eslint-config instale:
 
 Depois de terminar toda a config dos pacotes de config, trazer o meu padrão de setting.json de workspace para o prettier funcionar;
 Precisei ainda fazer umas coisas no settings de user, muito xato essa questão de manter esses 2 espaços no tab, precisei forçar usando no settings global;
+
+Decidindo pela estratégia de criar as permissões e mante-las em código e não em banco;
+Criando as permissões antes mesmo do backend ou do frontend;
+Vai ser criado como um pacote, para que seja compartilhado entre ambientes; O frontend não vai depender do backend para saber que por exemplo um usuário comum não pode excluir projetos;
+
+Criando o package auth e definindo as dependencias;
+
+Configuração Inicial do pacote Auth, criada e separada em um só commit (ajuda a entender como criar pacotes e quais etapas);
