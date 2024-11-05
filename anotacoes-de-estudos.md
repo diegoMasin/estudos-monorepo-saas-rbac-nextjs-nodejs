@@ -44,3 +44,15 @@ Vai ser criado como um pacote, para que seja compartilhado entre ambientes; O fr
 Criando o package auth e definindo as dependencias;
 
 Configuração Inicial do pacote Auth, criada e separada em um só commit (ajuda a entender como criar pacotes e quais etapas);
+
+Usando a lib CASL para a parte de permissões;
+
+```
+ - pnpm i @casl/ability
+```
+
+Construindo a api manualmente começando com o package.json, depois criando e linkando os arquivos de tsconfig até deixar um index.ts no ponto para começar a testar as permissões criadas no package "auth";
+
+Fazendo os primeiros usos de checkagem de permissões dentro da api;
+Importando o ability para dentro do index após colocar o auth como dependência no package da api;
+Tudo até aqui está separado em um commit: "Criando o package auth e a api e usando o auth na api"
