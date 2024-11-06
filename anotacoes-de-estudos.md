@@ -56,3 +56,8 @@ Construindo a api manualmente começando com o package.json, depois criando e li
 Fazendo os primeiros usos de checkagem de permissões dentro da api;
 Importando o ability para dentro do index após colocar o auth como dependência no package da api;
 Tudo até aqui está separado em um commit: "Criando o package auth e a api e usando o auth na api"
+
+Trabalhando agora os primeiros cargos (ADMIN e MEMBER) e algumas permissões para exemplo;
+Fazendo uma melhoria do primeiro protótipo do recursos de permissões usados na API passando agora a chamar o defineAbilityFor passando um objeto USER que conterá uma determinada ROLE, e então depois disso um fluxo um pouco complexo é executado a fim de no final ser construída a arvore de permissões daquela role de tal forma que logo a seguir no index da API essas permissões podem ser checkadas;
+Aparentemente será no arquivo permissions onde conterá descrito em código (e não em database) a arvore de permissão de todas as roles;
+Tudo isso separado no commit: "Melhorando a forma de obter a arvore de permissões para uma Role específica"
