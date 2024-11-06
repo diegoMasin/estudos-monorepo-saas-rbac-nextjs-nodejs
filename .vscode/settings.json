@@ -1,53 +1,5 @@
 {
-  // EXTENSÃO TAILWIND INTELLISENSE
-  "files.associations": {
-      "*.css": "tailwindcss"
-    },
-
-  // CORREÇÕES AUTOMÁTICAS PELO ESLINT
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "always"
-  },
-
-  // JAVASCRIPT, TYPESCRIPT, REACT IN GENERALS
-  "javascript.updateImportsOnFileMove.enabled": "never", /* !!!! IMPORTANTE !!!! */
-  "javascript.suggest.autoImports": true, /* !!!! IMPORTANTE !!!! */
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  "typescript.suggest.autoImports": true, /* !!!! IMPORTANTE !!!! */
-  "emmet.includeLanguages": {
-    "django-html": "html",
-    "javascript": "javascriptreact"
-  },
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-
-  // PASS CONTROL TO PRETTIER AUTO FORMAT
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter-notebook"
-},
-  "notebook.cellToolbarLocation": {
-    "default": "right",
-    "jupyter-notebook": "left"
-  },
-
-  //IF USE PRISMA IO IN BACKEND NODE PROJECT
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  },
-  "editor.inlineSuggest.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "eslint.workingDirectories": [
     {
       "mode": "auto"
