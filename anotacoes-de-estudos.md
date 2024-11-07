@@ -61,3 +61,12 @@ Trabalhando agora os primeiros cargos (ADMIN e MEMBER) e algumas permissões par
 Fazendo uma melhoria do primeiro protótipo do recursos de permissões usados na API passando agora a chamar o defineAbilityFor passando um objeto USER que conterá uma determinada ROLE, e então depois disso um fluxo um pouco complexo é executado a fim de no final ser construída a arvore de permissões daquela role de tal forma que logo a seguir no index da API essas permissões podem ser checkadas;
 Aparentemente será no arquivo permissions onde conterá descrito em código (e não em database) a arvore de permissão de todas as roles;
 Tudo isso separado no commit: "Melhorando a forma de obter a arvore de permissões para uma Role específica"
+
+Dentro do CASL:
+
+- as actions são os verbos (que podem ser os verbos do HTTPS, assim como outras actions personalizadas)
+  - a action manage é nativa do CASL para que quer dizer tudo e todas as actions
+- subjects são os models, entidades, coisas que as actions afetam, coisas as quais as permissão são feitas;
+
+Criando tipagem para as subjects; Criando uma forma de definir actions para as subjects (exemplo quando uma actions é somente para um subject);
+Essa parte está separado no commit: "Definindo actions para os subjects"
