@@ -77,3 +77,13 @@ Trabalhando condicionais dentro das permissões; Exemplo o usuário pode atualiz
 
 Definindo todos as permissões do APP;
 em cannot não é possível usar condicional (poderia criar uma de "não-igual" mas não funciona );
+
+## Trabalhando a API
+
+Instalando para iniciar:
+
+```
+- pnpm i fastify fastify-type-provider-zod @fastify/cors zod
+```
+
+Criando e registrando o primeiro endpoint create-account
