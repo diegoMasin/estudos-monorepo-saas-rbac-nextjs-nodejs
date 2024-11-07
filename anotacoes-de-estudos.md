@@ -86,4 +86,8 @@ Instalando para iniciar:
 - pnpm i fastify fastify-type-provider-zod @fastify/cors zod
 ```
 
-Criando e registrando o primeiro endpoint create-account
+Criando e registrando o primeiro endpoint create-account;
+Configurando a parte de banco de dados da api e usando o ORM Prisma;
+Usando banco postgres e criando manualmente o banco no pgadmin4;
+Ao instalar e usar o Prisma linkar com este banco na env;
+Criando todo o SCHEMA do projeto e rodando a migrate ao final (criando as tables no banco);
