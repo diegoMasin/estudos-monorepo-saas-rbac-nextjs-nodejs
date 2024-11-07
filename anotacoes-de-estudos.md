@@ -70,3 +70,5 @@ Dentro do CASL:
 
 Criando tipagem para as subjects; Criando uma forma de definir actions para as subjects (exemplo quando uma actions é somente para um subject);
 Essa parte está separado no commit: "Definindo actions para os subjects"
+
+Usando o Zod para melhorar a leitura das permissões (em tipagens);
