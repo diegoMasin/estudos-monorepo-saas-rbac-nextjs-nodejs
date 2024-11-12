@@ -91,3 +91,13 @@ Configurando a parte de banco de dados da api e usando o ORM Prisma;
 Usando banco postgres e criando manualmente o banco no pgadmin4;
 Ao instalar e usar o Prisma linkar com este banco na env;
 Criando todo o SCHEMA do projeto e rodando a migrate ao final (criando as tables no banco);
+Após schema criado, rodar o migrate com:
+
+```
+- pnpm prisma migrate dev
+```
+
+Com banco de dados criado e a maior parte do schema do projeto backend também, seguir agora a parte de criação de conta do usuário;
+Importante criar uma lib apenas para servir como conexão da api com o Prisma;
+Uso de hash na senha, e definição de 6 como um bom numero de vezes que o hash vai ser aplicado em cima do hash;
+Na criação adicionar uma verificação se utilizando mesmo email já existente;
