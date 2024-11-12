@@ -101,3 +101,6 @@ Com banco de dados criado e a maior parte do schema do projeto backend também, 
 Importante criar uma lib apenas para servir como conexão da api com o Prisma;
 Uso de hash na senha, e definição de 6 como um bom numero de vezes que o hash vai ser aplicado em cima do hash;
 Na criação adicionar uma verificação se utilizando mesmo email já existente;
+
+Criando um padrãozinho para criar seed usando faker;
+Fazendo um update no `schema` e rodando o `migrate dev` novamente
